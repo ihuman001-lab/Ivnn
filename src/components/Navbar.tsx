@@ -50,7 +50,7 @@ export function Navbar({
           onClick={() => setActiveTab('feed')}
           className="flex items-center gap-2 cursor-pointer group select-none"
         >
-          <img src="./logo-1.png" alt="IVNN Logo" className="w-9 h-9 object-contain" />
+          <img src="/logo-1.png" alt="IVNN Logo" className="w-9 h-9 object-contain" />
           
           <div className="flex flex-col">
             <span className="text-xl font-extrabold tracking-wider bg-gradient-to-r from-neutral-900 via-neutral-800 to-violet-600 dark:from-white dark:via-neutral-100 dark:to-violet-400 bg-clip-text text-transparent">
