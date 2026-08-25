@@ -1,0 +1,6 @@
+{
+  "name": "IVNN",
+  "description": "Modern multi-user social media web app with real-time private messaging, photo sharing, search, and activity notifications powered by Firebase.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
