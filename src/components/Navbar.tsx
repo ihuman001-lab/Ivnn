@@ -50,13 +50,8 @@ export function Navbar({
           onClick={() => setActiveTab('feed')}
           className="flex items-center gap-2 cursor-pointer group select-none"
         >
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-violet-600 via-indigo-500 to-cyan-400 p-[2px] shadow-sm shadow-violet-500/20 group-hover:scale-105 transition-transform duration-200">
-            <div className="w-full h-full bg-neutral-950 rounded-[10px] flex items-center justify-center">
-              <span className="text-sm font-black tracking-tighter bg-gradient-to-r from-white via-neutral-200 to-violet-300 bg-clip-text text-transparent">
-                IV
-              </span>
-            </div>
-          </div>
+          <img src="/logo-1.png" alt="IVNN Logo" className="w-9 h-9 object-contain" />
+          
           <div className="flex flex-col">
             <span className="text-xl font-extrabold tracking-wider bg-gradient-to-r from-neutral-900 via-neutral-800 to-violet-600 dark:from-white dark:via-neutral-100 dark:to-violet-400 bg-clip-text text-transparent">
               IVNN
